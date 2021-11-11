@@ -1,0 +1,336 @@
+* {
+  padding: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+
+.logo {
+  height: 50px;
+  width: 45px;
+}
+/* navbar */
+
+.navbar {
+  background-color: black;
+}
+
+.nav-bar li {
+  color: #ffffff;
+}
+.nav-bar li:hover {
+  color: #adb5bd;
+}
+/* navbar end */
+
+/* brand logo */
+
+.img2 {
+  /* position: relative;
+    display: block; */
+  /* margin-left: auto;
+    margin-right: auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+  z-index: 1;
+  width: 140px;
+  height: 140px;
+  border-radius: 16px;
+  border: 7px solid #fff;
+  background-position: center;
+  background-size: contain;
+  /* margin-top: -80px; */
+}
+.img2:hover {
+  border-color: darkcyan;
+  transition: 0.7s;
+  border: 2px solid black;
+  opacity: 60%;
+}
+
+.brand-div {
+  display: flex;
+  justify-content: center;
+}
+
+.brand-con {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* brand logo end   */
+
+/* card css */
+/* text css */
+.main-text h6 {
+  /* text-transform: uppercase; */
+  text-align: center;
+}
+
+.paragraph{
+  text-align: center;
+}
+
+
+#text1 {
+  text-align: center;
+  font-weight: lighter;
+}
+#text1:hover {
+  transition: 0.7s;
+  opacity: 50%;
+}
+
+.heading1 {
+  font-family: "Crete Round", serif;
+  text-align: center;
+  font-weight: bolder;
+}
+/* text css end */
+/* card img css */
+
+.brand1img:hover {
+  opacity: 50%;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  border-radius: 5px;
+  border: 12px solid #fff;
+}
+
+/* card css end */
+
+/* buttons css start */
+.btn {
+  color: #000000;
+  border-color: black;
+}
+.btn:hover {
+  background-color: #adb5bd;
+  color: #ffffff;
+}
+
+.btn:focus{
+  outline: none
+  !important;
+  box-shadow: none !important;
+}
+
+input:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+.div-btn{
+  position: relative;
+}
+.btn-brand2{
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  z-index: 2;
+  
+}
+.btn-brand1 a{
+  color: #000000;
+}
+.btn-brand2 a{
+  color: #000000;
+}
+
+.btn-brand1{
+  position: absolute;
+  left: 35%;
+  top: 50%;
+
+  z-index: 2;
+}
+/* buttons css end */
+
+/* add-to-cart */
+.cart-row{
+  overflow-x: hidden;
+}
+
+/* brand1 css start */
+/* card text css */
+.brand-heading1 {
+  font-weight: 300;
+  text-align: center;
+}
+
+
+.brand1-text h2 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 15px;
+}
+.brand1-text h6 {
+  text-align: center;
+  font-weight: 300;
+  color: black;
+}
+.brand1-text h6:hover {
+  color: rgba(0, 0, 0, 1);
+  font-weight: 800;
+
+}
+
+.nav-brand1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-brand1 a{
+  padding: 2%;
+  color: #000000;
+
+}
+.nav-brand1 a li{
+  border: 1px  solid rgb(192, 186, 186);
+  padding: 8px;
+}
+.nav-brand1 a li:hover{
+  border: 1px  solid black;
+  padding: 8px;
+}
+/* card text css end */
+/* card img css */
+/* .card1img img{
+  transition: 1s;
+}
+.card1img img:hover {
+  transform: scale(1.1);
+  overflow: hidden;
+} */
+
+.bannerlogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+  z-index: 1;
+  width: 200px;
+  height: 200px;
+  border-radius: 16px;
+  border: 7px solid #fff;
+  background-position: center;
+  background-size: contain;
+}
+
+.bannerlogo:hover {
+  border-color: darkcyan;
+  transition: 0.7s;
+  border: 2px solid black;
+}
+
+/* .gallery img {
+  transition: 1s;
+  margin: 10px 0px;
+  padding: 0px 10px;
+}
+.gallery img:hover {
+  filter: grayscale(80%);
+  transform: scale(1.1);
+} */
+.row-center{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+
+
+
+/* contact page css */
+.input-i input{
+  padding-left : 30px;
+}
+.input-i{
+  position: relative;
+}
+.input-i i{
+  position: absolute;
+  left: 0%;
+  top: 3px;
+  padding: 10px 8px ;
+  color: #aaa;
+}
+.input-i input:focus+ i{
+  color: dodgerblue;
+}
+.body-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+/* footer css start */
+@media only screen and (max-width: 600px) {
+  .container-input {
+    width: 100% !important;
+  }
+}
+.container-input {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.page-footer {
+  background-color: black;
+}
+
+/* icons css start */
+
+.icons i {
+  color: #ffffff;
+}
+.icons i:hover {
+  color: #adb5bd;
+  font-weight: 800;
+}
+
+/* .icon-c a i:hover{
+  color: red;
+}
+.icon-c a i{
+  color: #000000;
+} */
+/* icons css end */
+/* footer css end */
+
+/* .blog{
+  background-image: url(../images/blog1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+} */
+
+.blog-had{
+  font-family: "Crete Round", serif;
+  font-weight: bolder;
+}
